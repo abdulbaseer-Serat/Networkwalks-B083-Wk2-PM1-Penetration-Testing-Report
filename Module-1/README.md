@@ -183,7 +183,17 @@ dnsrecon -d networkwalks.com
 ---
 
 ##  Risk Analysis / Impact
+## 📊 Risk Analysis & Impact
 
+| # | Finding | Evidence | Potential Impact | Risk |
+|---|-----------|----------|------------------|------|
+| 1 | Technology Stack Disclosure | WhatWeb identified WordPress and plugin versions | May assist attackers in researching known issues affecting identified technologies. | 🟠 Medium |
+| 2 | Public IP Address Exposure | Nslookup resolved the target IP address | Enables infrastructure mapping and additional reconnaissance activities. | 🟢 Low |
+| 3 | HTTP Information Disclosure | Response headers and exposed endpoints identified | Provides insights into the application's technology stack and configuration. | 🟢 Low |
+| 4 | WAF Detection | Wafw00f identified a Web Application Firewall | Reveals the presence of security controls protecting the application. | 🟢 Low |
+| 5 | DNS Information Disclosure | DNSRecon enumerated DNS-related records | Assists in understanding the organization's external infrastructure. | 🟠 Medium |
+
+> **Note:** The findings above are based solely on passive reconnaissance and information gathering. No exploitation or intrusive testing was performed. The presence of publicly available information does not, by itself, indicate a vulnerability.
 | # |  Risk / Finding | Evidence |  Potential Impact |  Risk Level |
 |---|---|---|---|---|
 | 1 | Web technology exposed | WhatWeb identified CMS + plugin versions | Attackers may target known vulnerabilities for that version | 🟠 Medium |
