@@ -7,9 +7,8 @@
 ![Status](https://img.shields.io/badge/status-completed-brightgreen)
 ![Category](https://img.shields.io/badge/category-Footprinting-red)
 ![Tool](https://img.shields.io/badge/tool-Google%20Hacking%20Database-orange)
-![Purpose](https://img.shields.io/badge/purpose-Educational%20Only-blue)
+![Static Badge](https://img.shields.io/badge/Purpose-Only%20for%20Education%20-blue)
 
-**Prepared by: Arshiya Sharma**
 
 </div>
 
