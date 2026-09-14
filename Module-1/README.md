@@ -3,7 +3,7 @@
 #  Penetration Testing Report Module-1
 ### Footprinting & Reconnaissance with Multiple Kali Tools
 
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Status-Completed-red)
 ![Module](https://img.shields.io/badge/Module-W2--PM1-blue?style=for-the-badge)
 ![Program](https://img.shields.io/badge/Program-Networkwalks%20Internship-red?style=for-the-badge)
 ![Purpose](https://img.shields.io/badge/Purpose-Educational%20Only-orange?style=for-the-badge)
