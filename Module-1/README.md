@@ -89,9 +89,10 @@ whois networkwalks.com
 ```bash
 whatweb networkwalks.com
 ```
-<img width="973" height="447" alt="wafw00f" src="https://github.com/user-attachments/assets/d7ce85b4-d770-4c5c-be88-4d3e8bdc9b4f" />
 
 <div align="center">
+  
+<img width="974" height="427" alt="whatweb" src="https://github.com/user-attachments/assets/de981889-2fd4-4fbe-bf46-4e979dd28326" />
 
 📸 *Screenshot: WhatWeb output*
 
@@ -110,9 +111,8 @@ nslookup networkwalks.com
 
 <div align="center">
   
- <img width="970" height="282" alt="nslookup" src="https://github.com/user-attachments/assets/52f4ad25-dabd-442b-870b-dd221a9f873e" />
+<img width="970" height="282" alt="nslookup" src="https://github.com/user-attachments/assets/888a9d9e-281c-4053-97cf-102b1f7dd369" />
  
-
 📸 *Screenshot: Nslookup output*
 
 
@@ -133,7 +133,7 @@ curl -I https://networkwalks.com
 
 <div align="center">
   
-<img width="974" height="402" alt="Curl-I" src="https://github.com/user-attachments/assets/b54f6483-b1dd-4722-80e5-72813cca3bba" />
+<img width="974" height="402" alt="Curl-I" src="https://github.com/user-attachments/assets/cfb83669-288a-473b-a978-02d634d83c0e" />
 
 📸 *Screenshot: curl output*
 
@@ -151,10 +151,10 @@ wafw00f networkwalks.com
 ```
 
 <div align="center">
+  
+<img width="973" height="447" alt="wafw00f" src="https://github.com/user-attachments/assets/c32c4662-96b3-4168-a905-f4cf0ef38336" />
 
 📸 *Screenshot: Wafw00f output*
-
-<img width="644" height="430" alt="waf command" src="https://github.com/user-attachments/assets/bf6b3faf-32b7-4105-9d79-9b8ccfb0aa61" />
 
 </div>
 
@@ -171,11 +171,10 @@ dnsrecon -d networkwalks.com
 ```
 
 <div align="center">
+  
+<img width="977" height="540" alt="dnsrecon" src="https://github.com/user-attachments/assets/58a2baa1-ab57-4db1-a433-dc14439ce15e" />
 
 📸 *Screenshot: DNSRecon output*
-
-<img width="650" height="513" alt="dns recon command" src="https://github.com/user-attachments/assets/43c50888-cbfb-4677-aca2-a1bd7ef37350" />
-
 
 </div>
 
