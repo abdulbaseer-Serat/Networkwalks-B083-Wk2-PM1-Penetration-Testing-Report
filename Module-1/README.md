@@ -72,6 +72,7 @@ whois networkwalks.com
 ```
 
 <div align="center">
+  
 <img width="975" height="619" alt="Whois" src="https://github.com/user-attachments/assets/d60e3f01-9696-4424-8f11-e52d5eaefec4" />
 
 📸 *Screenshot: WHOIS output*
@@ -82,19 +83,18 @@ whois networkwalks.com
 
 ---
 
-###  Task 2 — WhatWeb Fingerprinting
-**Goal:** Identify the web server, CMS, plugins, frameworks, and IP address.
+###  Task 2 — Whatweb Fingerprinting
+**Goal:** Used for web technology fingerprinting to identify the web server, CMS, frameworks, plugins, and hosting-related information.
 
 ```bash
 whatweb networkwalks.com
 ```
 
 <div align="center">
+  
+<img width="974" height="427" alt="whatweb" src="https://github.com/user-attachments/assets/4f4b7bd5-b529-46c1-a64d-737f6aafa02e" />
 
 📸 *Screenshot: WhatWeb output*
-
-<img width="643" height="514" alt="whatweb command" src="https://github.com/user-attachments/assets/7e662b87-a4aa-4a1e-b9f4-6080ea7e5e49" />
-
 
 </div>
 
