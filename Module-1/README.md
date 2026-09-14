@@ -1,1 +1,234 @@
+<div align="center">
 
+#  Penetration Testing Report MODULE-1
+### Footprinting & Reconnaissance with Multiple Kali Tools
+
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![Module](https://img.shields.io/badge/Module-W2--PM1-blue?style=for-the-badge)
+![Program](https://img.shields.io/badge/Program-Networkwalks%20Internship-red?style=for-the-badge)
+![Purpose](https://img.shields.io/badge/Purpose-Educational%20Only-orange?style=for-the-badge)
+
+*A hands-on reconnaissance exercise mapping the public footprint of a live domain using six Kali Linux tools.*
+
+</div>
+
+---
+
+## 📋 Report Details
+
+| Field | Detail |
+|---|---|
+|  **Pentester Name** | `Arshiya Sharma` |
+|  **Program / Batch** | Networkwalks Internship |
+|  **Date** | 17 August 2026 |
+|  **Module Completed** | W2-PM1 — Footprinting with Multiple Kali Tools |
+|  **Target** | `networkwalks.com` *(secured written permission)* |
+|  **Permission Secured** | Yes |
+|  **Phase Covered** | Phase 1 — Reconnaissance & Footprinting |
+
+---
+
+##  Liability Disclaimer
+
+> These activities were performed **only** on systems where written permission was secured, or on target domains explicitly approved for this training program. All content in this repository is strictly for **education and research purposes**. Unauthorized access to computer systems is illegal in most jurisdictions, even when no damage occurs. Misuse of this material is the sole responsibility of the individual performing it — not the instructor, the authors, or Networkwalks.
+
+---
+
+## 🧭 Introduction
+
+This report documents the **footprinting and reconnaissance phase** of a penetration test against `networkwalks.com`, performed as part of the **W2-PM1** module. Footprinting is the first stage of any real attack or authorized security assessment — before touching a target directly, an attacker (or tester) quietly gathers everything that is *already public*: domain ownership, hosting infrastructure, live IP address, running technologies, firewall presence, and DNS records.
+
+All commands below were executed inside **Kali Linux**, with the exact command, observed result, a screenshot as evidence, and a short analysis of why each finding matters from an attacker's perspective.
+
+---
+
+##  Tools Used
+
+| 🔧 Tool | 🎯 Purpose |
+|---|---|
+| **Kali Linux** | Operating system used for all reconnaissance activities |
+| **WHOIS** | Domain registration details (owner, dates, name servers) |
+| **WhatWeb** | Fingerprints web technologies (server, CMS, plugins, IP) |
+| **Nslookup** | Resolves the domain name to its IP address via DNS |
+| **curl -I** | Reads the HTTP response headers of the website |
+| **Wafw00f** | Detects whether a Web Application Firewall is present |
+| **DNSRecon** | Enumerates DNS records (NS, MX, SPF, TXT, SRV) |
+
+---
+
+## Activities Performed
+
+###  Task 1 — WHOIS Lookup
+**Goal:** Find who owns the domain, when it was registered, and its name servers.
+
+```bash
+whois networkwalks.com
+```
+
+<div align="center">
+
+📸 *Screenshot: WHOIS output*
+
+<img width="640" height="512" alt="who is command" src="https://github.com/user-attachments/assets/aa55893a-9442-4c2a-8970-346d6c68df1f" />
+
+</div>
+
+** How attackers use this:** WHOIS reveals the registrar, registration/expiry dates, and name servers — instantly exposing the hosting provider. Abuse contacts and registration dates can also aid social engineering.
+
+---
+
+###  Task 2 — WhatWeb Fingerprinting
+**Goal:** Identify the web server, CMS, plugins, frameworks, and IP address.
+
+```bash
+whatweb networkwalks.com
+```
+
+<div align="center">
+
+📸 *Screenshot: WhatWeb output*
+
+<img width="643" height="514" alt="whatweb command" src="https://github.com/user-attachments/assets/7e662b87-a4aa-4a1e-b9f4-6080ea7e5e49" />
+
+
+</div>
+
+** How attackers use this:** WhatWeb exposes exact software versions (e.g. CMS + plugin versions). Attackers cross-reference these against public vulnerability databases to find known exploits.
+
+---
+
+###  Task 3 — Nslookup DNS Resolution
+**Goal:** Resolve the domain name to its IP address.
+
+```bash
+nslookup networkwalks.com
+```
+
+<div align="center">
+
+📸 *Screenshot: Nslookup output*
+
+<img width="643" height="512" alt="nslookup command" src="https://github.com/user-attachments/assets/76d17307-b08c-4891-bb34-8f4135233a06" />
+
+
+</div>
+
+** How attackers use this:** Knowing the real IP lets an attacker scan the server directly, discover co-hosted sites, and start mapping the target's infrastructure.
+
+---
+
+###  Task 4 — HTTP Header Inspection
+**Goal:** Read the HTTP response headers — server banner, status, cookies, and redirects.
+
+```bash
+curl -I https://networkwalks.com
+```
+
+<div align="center">
+
+📸 *Screenshot: curl output*
+
+<img width="652" height="511" alt="curl-I command" src="https://github.com/user-attachments/assets/44daa7ee-f8bd-46a0-9300-538f2c68ab5d" />
+
+
+</div>
+
+** How attackers use this:** Headers leak the web server, caching layer, and hidden API endpoints — giving fingerprinting clues without even loading the full page.
+
+---
+
+###  Task 5 — WAF Detection
+**Goal:** Detect whether a Web Application Firewall is protecting the target.
+
+```bash
+wafw00f networkwalks.com
+```
+
+<div align="center">
+
+📸 *Screenshot: Wafw00f output*
+
+<img width="644" height="430" alt="waf command" src="https://github.com/user-attachments/assets/bf6b3faf-32b7-4105-9d79-9b8ccfb0aa61" />
+
+</div>
+
+** How attackers use this:** Knowing a WAF is present shapes the whole attack strategy — naive attempts get blocked or logged, so an attacker must adapt or attempt a bypass.
+
+---
+
+###  Task 6 — DNS Enumeration
+**Goal:** Enumerate all DNS records — name servers, mail servers, SPF, TXT, and SRV records.
+
+```bash
+dnsrecon -d networkwalks.com
+```
+
+<div align="center">
+
+📸 *Screenshot: DNSRecon output*
+
+<img width="650" height="513" alt="dns recon command" src="https://github.com/user-attachments/assets/43c50888-cbfb-4677-aca2-a1bd7ef37350" />
+
+
+</div>
+
+** How attackers use this:** DNSRecon maps the entire DNS footprint — mail servers, DNS software version, SPF policy, and service records — building a broader infrastructure profile.
+
+---
+
+##  Risk Analysis / Impact
+
+| # |  Risk / Finding | Evidence |  Potential Impact |  Risk Level |
+|---|---|---|---|---|
+| 1 | Web technology exposed | WhatWeb identified CMS + plugin versions | Attackers may target known vulnerabilities for that version | 🟠 Medium |
+| 2 | Server IP identifiable | Nslookup resolved public IP address | Reveals network location of the web service | 🟢 Low |
+| 3 | HTTP info exposed | curl returned headers + hidden endpoints | Assists fingerprinting and further enumeration | 🟢 Low |
+| 4 | WAF technology identifiable | Wafw00f detected the WAF vendor | Reveals security architecture details | 🟢 Low |
+| 5 | DNS infrastructure exposed | DNSRecon enumerated DNS/mail/SRV records | Helps build a broader infrastructure profile | 🟠 Medium |
+
+> **Risk Key:** 🔴 Critical &nbsp;|&nbsp; 🟠 Medium &nbsp;|&nbsp; 🟢 Low
+
+> **Note:** These are *observations*, not confirmed vulnerabilities. Only information gathering was performed — no exploitation. The presence of a version number, IP, or DNS record does not by itself prove a system is vulnerable; further authorized testing would be required to confirm any real risk.
+
+---
+
+## ✅ Recommendations
+
+-  **Review exposed technology info** — audit what CMS/plugin/server details are publicly visible.
+-  **Keep software updated** — patch CMS platforms and plugins against current advisories.
+-  **Review HTTP headers** — strip unnecessary technical details from responses.
+-  **Audit DNS records regularly** — ensure only required records are publicly exposed.
+-  **Maintain and tune the WAF** — keep it enabled and monitored.
+-  **Run internal recon periodically** — see your own footprint the way an attacker would.
+-  **Test only with authorization** — reconnaissance and scanning must always stay in scope.
+
+---
+
+## 🏁 Conclusion
+
+This module walked through the **first stage of any real attack: reconnaissance**. Using six Kali Linux tools — WHOIS, WhatWeb, Nslookup, curl, Wafw00f, and DNSRecon — a full public profile of `networkwalks.com` was built without ever touching the target directly.
+
+The key takeaway: **information gathering is powerful precisely because it's silent.** Every technical finding was documented with what was performed, what was discovered, why it matters, and how the risk can be reduced — the foundation of a professional security report. All testing was carried out strictly within the authorized scope of this educational lab.
+
+---
+
+##  Evidence Collected
+
+All screenshots are stored in the [`screenshots/`](./screenshots) folder:
+
+- [ ] `whois.png`
+- [ ] `whatweb.png`
+- [ ] `nslookup.png`
+- [ ] `curl.png`
+- [ ] `wafw00f.png`
+- [ ] `dnsrecon.png`
+
+---
+
+<div align="center">
+
+**— End of Report —**
+
+*Made during the Networkwalks Cybersecurity & Ethical Hacking Internship 🇵🇰*
+
+</div>
