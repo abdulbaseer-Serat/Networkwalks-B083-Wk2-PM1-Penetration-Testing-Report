@@ -1,6 +1,6 @@
 <div align="center">
 
-#  Penetration Testing Report MODULE-1
+#  Penetration Testing Report Module-1
 ### Footprinting & Reconnaissance with Multiple Kali Tools
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
@@ -18,9 +18,9 @@
 
 | Field | Detail |
 |---|---|
-|  **Pentester Name** | `Arshiya Sharma` |
+|  **Pentester Name** | `Abdulbaseer Serat` |
 |  **Program / Batch** | Networkwalks Internship |
-|  **Date** | 17 August 2026 |
+|  **Date** | 14 Sep 2026 |
 |  **Module Completed** | W2-PM1 — Footprinting with Multiple Kali Tools |
 |  **Target** | `networkwalks.com` *(secured written permission)* |
 |  **Permission Secured** | Yes |
@@ -28,8 +28,10 @@
 
 ---
 
-##  Liability Disclaimer
+##  ⚠️ Legal & Ethical Disclaimer
 
+> This repository is provided for **educational, research, and authorized security testing purposes only**.
+> All content was developed and tested in authorized environments with proper permission. Unauthorized access to systems, networks, or applications is illegal and unethical.
 > These activities were performed **only** on systems where written permission was secured, or on target domains explicitly approved for this training program. All content in this repository is strictly for **education and research purposes**. Unauthorized access to computer systems is illegal in most jurisdictions, even when no damage occurs. Misuse of this material is the sole responsibility of the individual performing it — not the instructor, the authors, or Networkwalks.
 
 ---
