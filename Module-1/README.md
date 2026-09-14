@@ -118,14 +118,14 @@ nslookup networkwalks.com
 
 </div>
 
-**How attackers use this:** nslookup turns a domain name into its real IP address (192.232.216.135). Knowing the IP lets an 
-attacker scan the server directly, look up other sites on the same IP, and map the target's 
-infrastructure.
+**How attackers use this:** nslookup turns a domain name into its real IP address (192.232.216.135). Knowing the IP lets an attacker scan the server directly, look up other sites on the same IP, and map the target's infrastructure.
 
 ---
 
 ###  Task 4 — HTTP Header Inspection
-**Goal:** Used to inspect/read HTTP response headers and identify server-side configurations and security-related headers.
+**Goal:** Used to inspect/read HTTP response headers and identify server-side configurations and security-related headers, server banner, status, cookies and redirects.
+
+$ curl -I https://networkwalks..
 
 ```bash
 curl -I https://networkwalks.com
@@ -158,7 +158,7 @@ wafw00f networkwalks.com
 
 </div>
 
-** How attackers use this:** wafw00f tells an attacker if a firewall is watching. Here the site sits behind ModSecurity(SpiderLabs). Knowing a WAF is present shapes the whole attack: naive attempts will be blocked 
+** How attackers use this:** wafw00f tells an attacker if a firewall is watching. Here the site behind ModSecurity(SpiderLabs). Knowing a WAF is present shapes the whole attack: naive attempts will be blocked 
 or logged, so the attacker must adapt or try to bypass it.
 
 --- 
@@ -236,6 +236,6 @@ All screenshots are stored in the [`screenshots/`](./screenshots) folder:
 
 **— End of Report —**
 
-*Made during the Networkwalks Cybersecurity & Ethical Hacking Internship 🇵🇰*
+*Made during the Networkwalks Cybersecurity & Ethical Hacking Internship*
 
 </div>
