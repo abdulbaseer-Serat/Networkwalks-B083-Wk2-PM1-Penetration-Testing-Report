@@ -5,7 +5,7 @@
 
 ![Static Badge](https://img.shields.io/badge/Status-Completed-red)
 ![Static Badge](https://img.shields.io/badge/Module-W2--PM1-brightgreen)
-![Program](https://img.shields.io/badge/Program-Networkwalks%20Internship-red?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Program-Networkwalks%20Intership-orange)
 ![Purpose](https://img.shields.io/badge/Purpose-Educational%20Only-orange?style=for-the-badge)
 
 *A hands-on reconnaissance exercise mapping the public footprint of a live domain using six Kali Linux tools.*
