@@ -66,7 +66,7 @@ Using **GHDB dorks**, this module footprints public targets through **Google alo
 | No. | Link | Relevant Dork |
 |:---:|------|----------------|
 | 1 | http://erewhon.superkuh.com/library/Math/ | `intitle:index.of "parent directory" mathematics pdf` |
-| 2 | https://wdcmta.littleclarion.com/ELEMENTARY%20MANUAL/Materials/04%20Mathematics/1%20Mathematics%20-%20Math%201/1%20The%20Basic%20Operations/Equation%20Slips/?C=S;O=D | `intitle:index.of "parent directory" mathematics pdf` |
+| 2 | [hlevkin.com/.../Math/Gardner/](https://hlevkin.com/hlevkin/90MathPhysBioBooks/Math/Gardner/) | `intitle:index.of "parent directory" mathematics pdf` |
 | 3 | [easyteacherworksheets.com/pages/pdf/math/](https://easyteacherworksheets.com/pages/pdf/math/) | `intitle:index.of "index of" math pdf` |
 | 4 | [education.giakonda.org.uk/Maths/](https://education.giakonda.org.uk/Maths/) | `intitle:index.of "parent directory" mathematics pdf` |
 | 5 | [math.mcgill.ca/barr/](https://math.mcgill.ca/barr/) | `intitle:"index of pdf files" mathematics` |
