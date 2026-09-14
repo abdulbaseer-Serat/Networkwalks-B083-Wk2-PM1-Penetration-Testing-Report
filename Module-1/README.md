@@ -32,7 +32,7 @@
 
 > This repository is provided for **educational, research, and authorized security testing purposes only**.
 > All content was developed and tested in authorized environments with proper permission. Unauthorized access to systems, networks, or applications is illegal and unethical.
-> These activities were performed **only** on systems where written permission was secured, or on target domains explicitly approved for this training program. All content in this repository is strictly for **education and research purposes**. Unauthorized access to computer systems is illegal in most jurisdictions, even when no damage occurs. Misuse of this material is the sole responsibility of the individual performing it — not the instructor, the authors, or Networkwalks.
+> Users are solely responsible for complying with applicable laws and obtaining proper authorization before performing any security-related activities.
 
 ---
 
