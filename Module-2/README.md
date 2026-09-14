@@ -4,7 +4,7 @@
 
 ### Week 2 | Project Module 2 — Cybersecurity & Ethical Hacking
 
-![Status](https://img.shields.io/badge/status-completed-brightgreen)
+![Static Badge](https://img.shields.io/badge/Status-Completed-red)
 ![Static Badge](https://img.shields.io/badge/Module-W2--PM2-brightorange)
 ![Static Badge](https://img.shields.io/badge/Tool-Google%20Hacking%20Database--GHDB-orange)
 ![Static Badge](https://img.shields.io/badge/Purpose-Only%20for%20Education%20-blue)
