@@ -182,7 +182,6 @@ dnsrecon -d networkwalks.com
 
 ---
 
-##  Risk Analysis / Impact
 ## 📊 Risk Analysis & Impact
 
 | # | Finding | Evidence | Potential Impact | Risk |
@@ -192,15 +191,6 @@ dnsrecon -d networkwalks.com
 | 3 | HTTP Information Disclosure | Response headers and exposed endpoints identified | Provides insights into the application's technology stack and configuration. | 🟢 Low |
 | 4 | WAF Detection | Wafw00f identified a Web Application Firewall | Reveals the presence of security controls protecting the application. | 🟢 Low |
 | 5 | DNS Information Disclosure | DNSRecon enumerated DNS-related records | Assists in understanding the organization's external infrastructure. | 🟠 Medium |
-
-> **Note:** The findings above are based solely on passive reconnaissance and information gathering. No exploitation or intrusive testing was performed. The presence of publicly available information does not, by itself, indicate a vulnerability.
-| # |  Risk / Finding | Evidence |  Potential Impact |  Risk Level |
-|---|---|---|---|---|
-| 1 | Web technology exposed | WhatWeb identified CMS + plugin versions | Attackers may target known vulnerabilities for that version | 🟠 Medium |
-| 2 | Server IP identifiable | Nslookup resolved public IP address | Reveals network location of the web service | 🟢 Low |
-| 3 | HTTP info exposed | curl returned headers + hidden endpoints | Assists fingerprinting and further enumeration | 🟢 Low |
-| 4 | WAF technology identifiable | Wafw00f detected the WAF vendor | Reveals security architecture details | 🟢 Low |
-| 5 | DNS infrastructure exposed | DNSRecon enumerated DNS/mail/SRV records | Helps build a broader infrastructure profile | 🟠 Medium |
 
 > **Risk Key:** 🔴 Critical &nbsp;|&nbsp; 🟠 Medium &nbsp;|&nbsp; 🟢 Low
 
