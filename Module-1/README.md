@@ -48,7 +48,7 @@ All commands below were executed inside **Kali Linux**, with the exact command, 
 
 ---
 
-##  Tools Used
+## 🛠️ Tools Used
 
 | 🔧 Tool | 🎯 Purpose |
 |---|---|
@@ -65,17 +65,16 @@ All commands below were executed inside **Kali Linux**, with the exact command, 
 ## Activities Performed
 
 ###  Task 1 — WHOIS Lookup
-**Goal:** Find who owns the domain, when it was registered, and its name servers.
+**Goal:** Used to retrieve domain registration information, including registrar details, registration dates, and name servers.
 
 ```bash
 whois networkwalks.com
 ```
 
 <div align="center">
+<img width="975" height="619" alt="Whois" src="https://github.com/user-attachments/assets/d60e3f01-9696-4424-8f11-e52d5eaefec4" />
 
 📸 *Screenshot: WHOIS output*
-
-<img width="640" height="512" alt="who is command" src="https://github.com/user-attachments/assets/aa55893a-9442-4c2a-8970-346d6c68df1f" />
 
 </div>
 
