@@ -65,7 +65,7 @@ All commands below were executed inside **Kali Linux**, with the exact command, 
 ## Activities Performed
 
 ###  Task 1 — WHOIS Lookup
-**Goal:** Used to retrieve domain registration information, including registrar details, registration dates, and name servers.
+**Goal:** Query the public domain registration record to find who owns the domain, when it was registered, and its name servers.
 
 ```bash
 whois networkwalks.com
@@ -79,7 +79,7 @@ whois networkwalks.com
 
 </div>
 
-**How attackers use this:** WHOIS data can reveal the registrar, registration dates, and name servers, helping attackers identify hosting providers and gather information useful for reconnaissance or social engineering.
+**How attackers use this:** WHOIS reveals the registrar, registration and expiry dates, and name servers. Here the name servers point to HostGator, so an attacker instantly learns the hosting provider. Registration dates and abuse contacts help with social engineering and planning.
 
 ---
 
@@ -98,43 +98,44 @@ whatweb networkwalks.com
 
 </div>
 
-** How attackers use this:** WhatWeb exposes exact software versions (e.g. CMS + plugin versions). Attackers cross-reference these against public vulnerability databases to find known exploits.
+**How attackers use this:** WhatWeb reveals the technologies and software versions in use, such as WordPress and installed plugins. Attackers can compare these versions against public vulnerability databases to identify known weaknesses. It may also disclose infrastructure details, including the server IP address and publicly exposed contact information, which can support further reconnaissance.
 
 ---
 
 ###  Task 3 — Nslookup DNS Resolution
-**Goal:** Resolve the domain name to its IP address.
+**Goal:** Used to query DNS records and resolve the target domain to its associated IP address.
 
 ```bash
 nslookup networkwalks.com
 ```
 
 <div align="center">
+  
+<img width="970" height="282" alt="nslookup" src="https://github.com/user-attachments/assets/1cdac91d-e36b-4c26-be81-99070fa091fd" />
 
 📸 *Screenshot: Nslookup output*
-
-<img width="643" height="512" alt="nslookup command" src="https://github.com/user-attachments/assets/76d17307-b08c-4891-bb34-8f4135233a06" />
 
 
 </div>
 
-** How attackers use this:** Knowing the real IP lets an attacker scan the server directly, discover co-hosted sites, and start mapping the target's infrastructure.
+**How attackers use this:** nslookup turns a domain name into its real IP address (192.232.216.135). Knowing the IP lets an 
+attacker scan the server directly, look up other sites on the same IP, and map the target's 
+infrastructure.
 
 ---
 
 ###  Task 4 — HTTP Header Inspection
-**Goal:** Read the HTTP response headers — server banner, status, cookies, and redirects.
+**Goal:** Used to inspect/read HTTP response headers and identify server-side configurations and security-related headers.
 
 ```bash
 curl -I https://networkwalks.com
 ```
 
 <div align="center">
+  
+<img width="974" height="402" alt="Curl-I" src="https://github.com/user-attachments/assets/b54f6483-b1dd-4722-80e5-72813cca3bba" />
 
 📸 *Screenshot: curl output*
-
-<img width="652" height="511" alt="curl-I command" src="https://github.com/user-attachments/assets/44daa7ee-f8bd-46a0-9300-538f2c68ab5d" />
-
 
 </div>
 
@@ -143,7 +144,7 @@ curl -I https://networkwalks.com
 ---
 
 ###  Task 5 — WAF Detection
-**Goal:** Detect whether a Web Application Firewall is protecting the target.
+**Goal:** Used to detect the presence of a Web Application Firewall (WAF) protecting the target application.
 
 ```bash
 wafw00f networkwalks.com
@@ -157,12 +158,13 @@ wafw00f networkwalks.com
 
 </div>
 
-** How attackers use this:** Knowing a WAF is present shapes the whole attack strategy — naive attempts get blocked or logged, so an attacker must adapt or attempt a bypass.
+** How attackers use this:** wafw00f tells an attacker if a firewall is watching. Here the site sits behind ModSecurity(SpiderLabs). Knowing a WAF is present shapes the whole attack: naive attempts will be blocked 
+or logged, so the attacker must adapt or try to bypass it.
 
----
+--- 
 
 ###  Task 6 — DNS Enumeration
-**Goal:** Enumerate all DNS records — name servers, mail servers, SPF, TXT, and SRV records.
+**Goal:** Used to enumerate DNS records such as NS, MX, TXT, SPF, and other publicly available DNS information.
 
 ```bash
 dnsrecon -d networkwalks.com
