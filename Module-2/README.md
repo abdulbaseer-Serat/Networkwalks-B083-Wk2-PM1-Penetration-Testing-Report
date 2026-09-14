@@ -65,7 +65,7 @@ Using **GHDB dorks**, this module footprints public targets through **Google alo
 
 | No. | Link | Relevant Dork |
 |:---:|------|----------------|
-| 1 | [theswissbay.ch/pdf/Gentoomen Library/Maths/](https://theswissbay.ch/pdf/Gentoomen%20Library/Maths/) | `intitle:index.of "parent directory" mathematics pdf` |
+| 1 | (http://erewhon.superkuh.com/library/Math/) | `intitle:index.of "parent directory" mathematics pdf` |
 | 2 | [hlevkin.com/.../Math/Gardner/](https://hlevkin.com/hlevkin/90MathPhysBioBooks/Math/Gardner/) | `intitle:index.of "parent directory" mathematics pdf` |
 | 3 | [easyteacherworksheets.com/pages/pdf/math/](https://easyteacherworksheets.com/pages/pdf/math/) | `intitle:index.of "index of" math pdf` |
 | 4 | [education.giakonda.org.uk/Maths/](https://education.giakonda.org.uk/Maths/) | `intitle:index.of "parent directory" mathematics pdf` |
