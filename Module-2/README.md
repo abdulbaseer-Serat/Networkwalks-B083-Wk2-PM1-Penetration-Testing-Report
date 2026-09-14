@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🕵️‍♂️ W2-PM2 — Footprinting & Reconnaissance with GHDB
+#  Penetration Testing Report Module-2
 
-### Week 2 | Project Module 2 — Cybersecurity & Ethical Hacking
+### 🕵️‍♂️Footprinting & Reconnaissance Attacks With Google Hacking Database-GHDB
 
 ![Static Badge](https://img.shields.io/badge/Status-Completed-red)
 ![Static Badge](https://img.shields.io/badge/Module-W2--PM2-brightorange)
