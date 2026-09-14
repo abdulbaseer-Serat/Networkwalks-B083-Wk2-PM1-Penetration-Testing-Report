@@ -38,7 +38,11 @@
 
 ## 🧭 Introduction
 
-This report documents the **footprinting and reconnaissance phase** of a penetration test against `networkwalks.com`, performed as part of the **W2-PM1** module. Footprinting is the first stage of any real attack or authorized security assessment — before touching a target directly, an attacker (or tester) quietly gathers everything that is *already public*: domain ownership, hosting infrastructure, live IP address, running technologies, firewall presence, and DNS records.
+This report documents the **Footprinting and Reconnaissance** phase conducted against `networkwalks.com` as part of the **W2-PM1** module.
+
+Footprinting is the initial stage of a penetration test and serves as the foundation for understanding a target's external attack surface. During this phase, publicly available information is collected to identify key details about the target, including domain ownership, hosting infrastructure, IP addresses, DNS records, security controls, and underlying technologies.
+
+The objective is to build an accurate profile of the target using open-source intelligence (OSINT) and passive reconnaissance techniques before any direct interaction with the environment occurs.
 
 All commands below were executed inside **Kali Linux**, with the exact command, observed result, a screenshot as evidence, and a short analysis of why each finding matters from an attacker's perspective.
 
