@@ -73,7 +73,7 @@ whois networkwalks.com
 
 <div align="center">
   
-<img width="975" height="619" alt="Whois" src="https://github.com/user-attachments/assets/d60e3f01-9696-4424-8f11-e52d5eaefec4" />
+<img width="975" height="619" alt="Whois" src="https://github.com/user-attachments/assets/85c20216-b444-4900-961e-61833855cb6c" />
 
 📸 *Screenshot: WHOIS output*
 
@@ -89,10 +89,9 @@ whois networkwalks.com
 ```bash
 whatweb networkwalks.com
 ```
+<img width="973" height="447" alt="wafw00f" src="https://github.com/user-attachments/assets/d7ce85b4-d770-4c5c-be88-4d3e8bdc9b4f" />
 
 <div align="center">
-  
-<img width="974" height="427" alt="whatweb" src="https://github.com/user-attachments/assets/4f4b7bd5-b529-46c1-a64d-737f6aafa02e" />
 
 📸 *Screenshot: WhatWeb output*
 
@@ -111,7 +110,8 @@ nslookup networkwalks.com
 
 <div align="center">
   
-<img width="970" height="282" alt="nslookup" src="https://github.com/user-attachments/assets/1cdac91d-e36b-4c26-be81-99070fa091fd" />
+ <img width="970" height="282" alt="nslookup" src="https://github.com/user-attachments/assets/52f4ad25-dabd-442b-870b-dd221a9f873e" />
+ 
 
 📸 *Screenshot: Nslookup output*
 
