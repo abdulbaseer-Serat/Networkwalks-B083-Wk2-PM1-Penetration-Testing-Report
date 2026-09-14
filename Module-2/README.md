@@ -2,7 +2,7 @@
 
 #  Penetration Testing Report Module-2
 
-### 🕵️‍♂️Footprinting & Reconnaissance Attacks With Google Hacking Database-GHDB
+### Footprinting & Reconnaissance Attacks With Google Hacking Database - GHDB
 
 ![Static Badge](https://img.shields.io/badge/Status-Completed-red)
 ![Static Badge](https://img.shields.io/badge/Module-W2--PM2-brightorange)
