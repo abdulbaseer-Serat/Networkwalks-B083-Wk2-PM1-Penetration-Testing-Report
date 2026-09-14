@@ -78,7 +78,7 @@ whois networkwalks.com
 
 </div>
 
-** How attackers use this:** WHOIS reveals the registrar, registration/expiry dates, and name servers — instantly exposing the hosting provider. Abuse contacts and registration dates can also aid social engineering.
+**How attackers use this:** WHOIS data can reveal the registrar, registration dates, and name servers, helping attackers identify hosting providers and gather information useful for reconnaissance or social engineering.
 
 ---
 
