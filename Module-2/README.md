@@ -14,7 +14,7 @@
 
 ---
 
-## 📖 Background
+## 📚 Background 
 
 **GHDB (Google Hacking Database)** is a large collection of ready-made search queries called **Google dorks**. These dorks use normal Google search operators in clever ways to surface information that a website has unintentionally left public — exposed camera feeds, open directories, login pages, config files, and documents.
 
