@@ -109,8 +109,6 @@ Because all of this comes straight from Google, the target is never directly con
 
 The same dorks an attacker uses to find weaknesses are also used by **defenders** to audit their own domains, so they can discover what they're leaking and lock it down before someone else finds it.
 
-> 💡 **The lesson:** the less an organization exposes to Google, the smaller its attack surface becomes.
-
 ---
 
 ## ⚠️ Liability Disclaimer
@@ -133,6 +131,5 @@ The same dorks an attacker uses to find weaknesses are also used by **defenders*
 
 *By using this repository you confirm that you have read this disclaimer and accept full responsibility for your actions.*
 
-**Cybersecurity • Ethical Hacking • Footprinting**
 
 </div>
