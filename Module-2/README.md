@@ -46,7 +46,7 @@ Using **GHDB dorks**, this module footprints public targets through **Google alo
 | No. | Link                                                        | Relevant Dork                                | Username / Password |
 | :-: | ----------------------------------------------------------- | -------------------------------------------- | :-----------------: |
 |  1  | `http://109.233.191.130:8080/`                              | `intitle:"webcamXP" inurl:8080`              |         ---         |
-|  2  | `http://109.233.191.130:8080/frame.html?src=8&mode=0&width=320&height=240` 
+|  2  | `http://109.233.191.130:808` 
                                                                     | `intitle:"webcamXP 5" inurl:admin.html`      |         ---         |
 |  3  | `http://50.184.100.116:8000/index.html`                     | `intitle:"webcamXP" inurl:8000 "JavaScript"` |         ---         |
 |  4  | `http://cbsouthmetro.ddns.net:8080/`                        | `intitle:"AXIS" "Live View" inurl:view`      |         ---         |
