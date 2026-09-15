@@ -207,22 +207,27 @@ Finally, Zenmap's **Topology** feature was used to visually map the discovered n
 ## 📸 12. Screenshots
 <div align="center">
 <img width="893" height="641" alt="ip addr" src="https://github.com/user-attachments/assets/6c318e92-9d25-4dc2-826d-74eb1fbb6d0f" />
+📸 *Screenshot: Task 01 showing IP address*
 </div>
 
 <div align="center">
 <img width="722" height="687" alt="ping scan" src="https://github.com/user-attachments/assets/d23c7a97-ea50-4025-b63b-0b1f7376664e" />
+📸 *Screenshot: Task 02_ping scan command and live host discovery results.png*
 </div>
 
 <div align="center">
 <img width="888" height="737" alt="topology" src="https://github.com/user-attachments/assets/8e851a7a-66aa-44ce-91be-e5b37178974f" />
+📸 *Screenshot: Task 03_zenmap topology map.png*
 </div>
 
 <div align="center">
 <img width="884" height="733" alt="legend" src="https://github.com/user-attachments/assets/a56119a7-e9c4-4900-85f1-4231df77f2d7" />
+📸 *Screenshot: Task 04_zenmap topology legend.png*
 </div>
 
 <div align="center">
 <img width="1292" height="865" alt="saving topology" src="https://github.com/user-attachments/assets/3a4d8c8c-8010-4c4d-a61c-9eaacd5a71f5" />
+📸 *Screenshot: Task 05_topology pdf export.png*
 </div>
 
 | # | Description | Suggested Filename |
