@@ -204,15 +204,26 @@ Finally, Zenmap's **Topology** feature was used to visually map the discovered n
 
 ---
 
-## 📸 12. Evidence / Screenshots
-<img width="959" height="1070" alt="legend" src="https://github.com/user-attachments/assets/8a5285d0-6c1b-4dd0-9683-88abcdebc7e7" />
-<img width="945" height="1072" alt="ip addr" src="https://github.com/user-attachments/assets/e213fc21-0653-42e9-8d62-deff1dcadb43" />
-<img width="942" height="1076" alt="ping scan" src="https://github.com/user-attachments/assets/14f1dc33-2007-4afe-8a47-7657bde4327c" />
-<img width="960" height="1079" alt="topology" src="https://github.com/user-attachments/assets/6ca996da-f9c5-454b-ab70-234fe61df21e" />
-<img width="1129" height="1079" alt="Zenmap" src="https://github.com/user-attachments/assets/8c2354e0-94c4-4470-a7d2-7f23f72cfcf5" />
+## 📸 12. Screenshots
+<div align="center">
+<img width="893" height="641" alt="ip addr" src="https://github.com/user-attachments/assets/6c318e92-9d25-4dc2-826d-74eb1fbb6d0f" />
+</div>
 
+<div align="center">
+<img width="722" height="687" alt="ping scan" src="https://github.com/user-attachments/assets/d23c7a97-ea50-4025-b63b-0b1f7376664e" />
+</div>
 
+<div align="center">
+<img width="888" height="737" alt="topology" src="https://github.com/user-attachments/assets/8e851a7a-66aa-44ce-91be-e5b37178974f" />
+</div>
 
+<div align="center">
+<img width="884" height="733" alt="legend" src="https://github.com/user-attachments/assets/a56119a7-e9c4-4900-85f1-4231df77f2d7" />
+</div>
+
+<div align="center">
+<img width="1292" height="865" alt="saving topology" src="https://github.com/user-attachments/assets/3a4d8c8c-8010-4c4d-a61c-9eaacd5a71f5" />
+</div>
 
 | # | Description | Suggested Filename |
 |:---:|---|---|
