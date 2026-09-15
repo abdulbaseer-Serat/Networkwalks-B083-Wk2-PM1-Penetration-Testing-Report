@@ -1,16 +1,16 @@
 <div align="center">
 
-# 🌐 W2-PM4 — Footprinting & Reconnaissance with theHarvester
+# Penetration Testing Report Module-4
 
-### Week 2 | Project Module 4
+### 🕸️ W2-PM4 — Footprinting & Reconnaissance Attacks with theHARVESTER
 
-![Status](https://img.shields.io/badge/status-brightgreen
-![Tool](httpshields.io/badge/tool-theHarvester-orange
-https://img.shields.io/badge/category-Footprinting-red
-![Platform](httpsds.io/badge/platform-Kali%20Linux-blueviolet
-![Purpose](https://img.shields.io/badge/purpose-Educationale
+![Static Badge](https://img.shields.io/badge/Status-Completed-red)
+![Static Badge](https://img.shields.io/badge/Module-W2--PM4-brightorange)
+![Tool](https://img.shields.io/badge/tool-theHarvester-orange)
+![Tool](https://img.shields.io/badge/tool-Maltego-purple)
+![Platform](https://img.shields.io/badge/platform-Kali%20Linux-blueviolet)
+![Static Badge](https://img.shields.io/badge/Purpose-Only%20for%20Education%20-blue)
 
-**Prepared by: Abdul Basir Serat**
 
 </div>
 
