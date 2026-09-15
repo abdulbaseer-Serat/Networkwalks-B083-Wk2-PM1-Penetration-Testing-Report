@@ -6,11 +6,9 @@
 **Week 2 · Project Modules 1–5**
 *Cybersecurity & Ethical Hacking Internship — NetworkWalks*
 
-![Static Badge](https://img.shields.io/badge/Status-Completed-red)
-![Static Badge](https://img.shields.io/badge/Module-W2--PM4-brightorange)
-![Tool](https://img.shields.io/badge/tool-theHarvester-orange)
-![Platform](https://img.shields.io/badge/platform-Kali%20Linux-blueviolet)
-![Static Badge](https://img.shields.io/badge/Purpose-Only%20for%20Education%20-blue)
+![Static Badge](https://img.shields.io/badge/STATUAS-COMPLETED-brightorange)
+![Static Badge](https://img.shields.io/badge/ENVIRONMENT-KALI%20LINUX-orange)
+![Static Badge](https://img.shields.io/badge/TESTING%20TYPE-AUTHORIZED%20%26%20EDUCATIONAL-red)
 
 </div>
 
