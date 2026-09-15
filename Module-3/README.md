@@ -91,7 +91,9 @@ info@networkwalks.com
 
 ## 📸 Screenshots
 <img width="956" height="867" alt="01-target-domain" src="https://github.com/user-attachments/assets/b498d614-4825-4f72-aca7-d913af1a9173" />
+<div align="center">
 📸 *Screenshot: WhatWeb output*
+        
 <img width="961" height="879" alt="02-email-transform" src="https://github.com/user-attachments/assets/a3d4d04c-80c6-47e0-a132-2511cf7b0b6c" />
 📸 *Screenshot: WhatWeb output*
 <img width="961" height="872" alt="03-email-search" src="https://github.com/user-attachments/assets/20139e90-5265-4b6c-991b-eec7ec6d4373" />
