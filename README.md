@@ -307,9 +307,7 @@ Cybersecurity & Ethical Hacking Internship · NetworkWalks
 Week 02: Footprinting, OSINT & Network Scanning  
 Modules: `W2-PM1` → `W2-PM5`
 
-- GitHub: https://github.com/abdulbaseer-Serat
-- LinkedIn: https://linkedin.com/in/abdul-basir-serat-65b8201ab
-- Email: info.abdulbasir@gmail.com
+[GitHub](https://github.com/abdulbaseer-Serat) · [LinkedIn](https://linkedin.com/in/abdul-basir-serat-65b8201ab) · info.abdulbasir@gmail.com
 
 ---
 
