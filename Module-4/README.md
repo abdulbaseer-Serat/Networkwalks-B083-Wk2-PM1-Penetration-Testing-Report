@@ -28,6 +28,7 @@ Activities were divided into two tasks:
 1. Gathering information using the **Baidu** data source
 2. Gathering information using **all available/configured sources**
 
+
 theHarvester identifies publicly available information such as email addresses, hosts, and subdomains related to a target domain by pulling from public sources like search engines and other OSINT data sources.
 ---
 
@@ -97,24 +98,33 @@ theHarvester -d microsoft.com -l 1000 -b baidu
 
 ### ✅ Results
 
-**Email Addresses Found (2):**
+**Email Addresses Found (9):**
 ```
-a-yuwa@microsoft.com
+contact@microsoft.com
+support@microsoft.com
+abc@microsoft.com
+info@microsoft.com
+mscomblg@microsoft.com
+partnerhubsupport@microsoft.com
+postmaster@microsoft.comservice.microsoft.com
+user@contoso.onmicrosoft.com
 viva-noreply@microsoft.com
 ```
 
-**Hosts Found (10):**
+**Hosts Found (28):**
 ```
+2fsupport.microsoft.com
 account.microsoft.com
-accountprotection.microsoft.com
+activation.sls.microsoft.com
+admin.microsoft.com
+adoption.microsoft.com
+demo.wd.microsoft.com
 developer.microsoft.com
-ideas.fabric.microsoft.com
-infomails.microsoft.com
-learn.microsoft.com
-news.microsoft.com
-officecdn.microsoft.com
-prod.support.services.microsoft.com
-support.microsoft.com
+docs.microsoft.com
+foundershub.startups.microsoft.com
+go.microsoft.com
+graph.microsoft.com
+hxd.research.microsoft.com
 ```
 
 theHarvester successfully gathered publicly available email and host information using only the Baidu data source.
@@ -224,14 +234,15 @@ However, some sources require **API keys** — so the amount of information succ
 ---
 
 ## 📸 9. Screenshots
+## 📸 Screenshots
 
 | # | Description | Filename |
 |:---:|---|---|
-| 1 | theHarvester usage information and supported OSINT sources | `01-theharvester-usage.png` |
-| 2 | Task 1: Baidu-based reconnaissance against microsoft.com | `02-baidu-reconnaissance.png` |
-| 3 | Task 2: Multi-source reconnaissance against microsoft.com | `03-all-sources-reconnaissance.png` |
-| 4 | Task 2: Consolidated reconnaissance results | `04-reconnaissance-results.png` |
-
+| 1 | Displaying theHarvester help menu and reviewing supported command-line options, parameters, and OSINT data sources available for reconnaissance activities. | `01-theharvester-help-menu.png` |
+| 2 | Task 1: Executing theHarvester against `microsoft.com` using the Baidu search engine source with a result limit of 1000. | `02-baidu-search-command.png` |
+| 3 | Task 1: Reviewing the harvested email addresses and discovered hosts retrieved from Baidu search results and saved to the output file. | `03-task1-saved-results.png` |
+| 4 | Task 2: Executing theHarvester against `microsoft.com` using all available OSINT data sources (`-b all`) with a result limit of 50. | `04-all-sources-command.png` |
+| 5 | Task 2: Reviewing reconnaissance results collected from multiple public intelligence sources, including discovered email addresses, hosts, and subdomains related to Microsoft. | `05-all-sources-results.png` |
 
 
 ---
