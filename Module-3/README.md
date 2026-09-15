@@ -104,7 +104,7 @@ info@networkwalks.com
 | # | Description | Filename |
 |:---:|---|---|
 | 1 | Target domain `networkwalks.com` added as an entity | `01-domain-entity.png` |
-| 2 | Email transform `[Utilities] To Emails @domain [Search Engine]` selected | `02-email-transform.png` |
+| 2 | Selected Email Discovery Transform | `02-email-transform.png` |
 | 3 | Executed Email Search Transform | `03-email-search.png` |
 | 3 | Email Address Successfully Discovered: `networkwalks.com → info@networkwalks.com` | `email-discovered.png` |
 
