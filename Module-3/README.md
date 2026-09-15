@@ -4,8 +4,8 @@
 
 ### Week 2 | Project Module 3 — Cybersecurity & Ethical Hacking
 
-![Status](https://img.shields.io/badge/status-completed-brightgreen)
-![Category](https://img.shields.io/badge/category-Footprinting-red)
+![Static Badge](https://img.shields.io/badge/Status-Completed-red)
+![Static Badge](https://img.shields.io/badge/Module-W2--PM2-brightorange)
 ![Tool](https://img.shields.io/badge/tool-Maltego-purple)
 ![Platform](https://img.shields.io/badge/platform-Kali%20Linux-blueviolet)
 ![Purpose](https://img.shields.io/badge/purpose-Educational%20Only-blue)
