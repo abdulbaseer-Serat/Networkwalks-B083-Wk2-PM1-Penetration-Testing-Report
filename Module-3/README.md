@@ -90,13 +90,14 @@ info@networkwalks.com
 ---
 
 ## 📸 Screenshots
-<img width="956" height="1031" alt="domain" src="https://github.com/user-attachments/assets/1c41c3f7-9204-4cb0-9282-5a1b9c7f61d6" />
-<img width="961" height="1042" alt="step to run transformer" src="https://github.com/user-attachments/assets/a5117996-b8fb-438f-b406-6428203511ac" />
-<img width="961" height="997" alt="search for email" src="https://github.com/user-attachments/assets/f9d713ad-86b1-4150-a764-16e28152d74f" />
-<img width="962" height="1079" alt="results" src="https://github.com/user-attachments/assets/71dcc333-b86e-480d-9d96-910622bfd78b" />
-
-
-
+<img width="956" height="867" alt="01-target-domain" src="https://github.com/user-attachments/assets/b498d614-4825-4f72-aca7-d913af1a9173" />
+📸 *Screenshot: WhatWeb output*
+<img width="961" height="879" alt="02-email-transform" src="https://github.com/user-attachments/assets/a3d4d04c-80c6-47e0-a132-2511cf7b0b6c" />
+📸 *Screenshot: WhatWeb output*
+<img width="961" height="872" alt="03-email-search" src="https://github.com/user-attachments/assets/20139e90-5265-4b6c-991b-eec7ec6d4373" />
+📸 *Screenshot: WhatWeb output*
+<img width="962" height="917" alt="04-email-discovered" src="https://github.com/user-attachments/assets/7dc09a32-9800-4017-bec2-a7324620a4dd" />
+📸 *Screenshot: WhatWeb output*
 
 
 
