@@ -226,12 +226,11 @@ Every activity reinforced a core principle of ethical hacking: **a significant a
    ├─ Wafw00f command & output
    └─ DNSRecon command & output
 ```
-
-
-
-<img width="650" height="513" alt="dns recon command" src="https://github.com/user-attachments/assets/e2927f70-5613-4ff1-9fce-f6cc5337e59e" />
-<img width="652" height="511" alt="curl-I command" src="https://github.com/user-attachments/assets/2f284d10-93e5-47cf-a791-5be456324ace" />
-
+<div align="center">
+<img width="975" height="619" alt="Whois" src="https://github.com/user-attachments/assets/1d1a67cf-85e2-48c8-8c75-81ac9ca5d526" />
+<img width="970" height="282" alt="nslookup" src="https://github.com/user-attachments/assets/af987e34-f08f-4f1f-9e69-56454eadffea" />
+<img width="977" height="540" alt="dnsrecon" src="https://github.com/user-attachments/assets/cf5588d5-ab77-4e73-8168-60c5080f56af" />
+</div>
 
 
 ```
@@ -239,13 +238,6 @@ Every activity reinforced a core principle of ethical hacking: **a significant a
    ├─ Task 1 search/dork + results
    └─ Task 2 search/dork + results
 ```
-
-
-
-
-<img width="1600" height="814" alt="cam 10" src="https://github.com/user-attachments/assets/e1989c81-8579-4d68-9c56-95c7b89be645" />
-<img width="1914" height="1025" alt="maths 4" src="https://github.com/user-attachments/assets/d89bfd7e-0e70-46b0-a647-9acb7f6f2385" />
-
 
 
 
@@ -258,10 +250,14 @@ Every activity reinforced a core principle of ethical hacking: **a significant a
 ```
 
 
+<div align="center">
 
-<img width="962" height="1079" alt="results" src="https://github.com/user-attachments/assets/3adc437c-ee88-413f-b610-3248349e9d12" />
-<img width="956" height="1031" alt="domain" src="https://github.com/user-attachments/assets/f63d08f8-3a49-46dc-95c6-2f8a48e3c38f" />
+<img width="956" height="867" alt="01-target-domain" src="https://github.com/user-attachments/assets/16bb23c7-68e9-4cdc-85fa-ddbc3b386d25" />
+<img width="961" height="879" alt="02-email-transform" src="https://github.com/user-attachments/assets/9364f38e-de51-435c-b71b-38af91acf670" />
+<img width="961" height="872" alt="03-email-search" src="https://github.com/user-attachments/assets/ee536fa7-97df-4a4e-96ba-22a1ac650870" />
 
+
+</div>
 
 
 
@@ -272,12 +268,12 @@ Every activity reinforced a core principle of ethical hacking: **a significant a
    └─ All available sources search/result
 ```
 
+<div align="center">
 
 
-<img width="961" height="1037" alt="task1-baidu-results png" src="https://github.com/user-attachments/assets/1439f763-3533-4c04-b9b0-6ef697dabb16" />
 
 
-
+</div>
 
 
 ```
