@@ -23,10 +23,6 @@ The objective of this project was to perform basic footprinting using **Maltego*
 
 > **Target Domain:** `networkwalks.com`
 
-### Target
-```text
-networkwalks.com
-```
 ---
 
 ## 🛠️ Tools Used
@@ -43,7 +39,7 @@ networkwalks.com
 ## 📋 Tasks Performed
 
 ### Task 1 — Maltego Installation and Configuration
-- install and Opened Maltego Graph Desktop within Kali Linux.
+- Install and configure Maltego Graph Desktop within Kali Linux.
 - Configured the application for footprinting activities.
 - Verified successful initialization of the workspace.
 
@@ -61,7 +57,7 @@ networkwalks.com
 
 ## 🔄 Procedure
 
-1. Opened **Maltego Graph Desktop**
+1. Launch **Maltego Graph Desktop**
 2. Created a **new graph**
 3. Added a **Domain entity**
 4. Entered the target domain: `networkwalks.com`
