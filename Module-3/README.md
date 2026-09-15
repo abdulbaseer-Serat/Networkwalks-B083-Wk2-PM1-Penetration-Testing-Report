@@ -17,10 +17,16 @@
 
 ## 📌 Objective
 
+This project demonstrates basic footprinting and Open Source Intelligence (OSINT) techniques using **Maltego**.
+
 The objective of this project was to perform basic footprinting using **Maltego** and identify publicly available email addresses associated with the target domain.
 
 > **Target Domain:** `networkwalks.com`
 
+### Target
+```text
+networkwalks.com
+```
 ---
 
 ## 🛠️ Tools Used
