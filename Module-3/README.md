@@ -38,7 +38,7 @@ The objective of this project was to perform basic footprinting using **Maltego*
 
 ## 📋 Tasks Performed
 
-### Task 1 — Maltego Installation and Configuration
+### Task 1 — Maltego Installation and Configuration. for more info https://www.maltego.com/blog/beginners-guide-to-maltego-setting-up-maltego-community-edition-ce/
 - Install and configure Maltego Graph Desktop within Kali Linux.
 - Configured the application for footprinting activities.
 - Verified successful initialization of the workspace.
