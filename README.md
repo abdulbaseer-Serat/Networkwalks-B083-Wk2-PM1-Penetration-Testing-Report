@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # 🛡️ Penetration Testing Final Report
@@ -269,8 +270,8 @@ Every activity reinforced a core principle of ethical hacking: **a significant a
 ```
 
 <div align="center">
-
-
+<img width="1039" height="586" alt="Task 2 execution using all available OSINT data sources" src="https://github.com/user-attachments/assets/f747f61b-bf66-41bb-b540-71cf173d07d8" />
+<img width="1247" height="903" alt="Task 1 execution using the Baidu search source against microsoft com" src="https://github.com/user-attachments/assets/bfeaab61-b319-410c-9d0f-546d281f219d" />
 
 
 </div>
@@ -287,11 +288,13 @@ Every activity reinforced a core principle of ethical hacking: **a significant a
 ```
 
 
+<div align="center">
+
+<img width="893" height="641" alt="ip addr" src="https://github.com/user-attachments/assets/2a664d98-0223-442a-92c4-344d0dc4de7e" />
+<img width="722" height="687" alt="ping scan" src="https://github.com/user-attachments/assets/8dc68b2e-9b0c-4b41-b89b-cfda84f7fac5" />
 
 
-<img width="957" height="955" alt="saved topology" src="https://github.com/user-attachments/assets/95f93b3b-e2e4-4f24-9a88-68fd42536f49" />
-<img width="942" height="1076" alt="ping scan" src="https://github.com/user-attachments/assets/f2e8f7d2-5f50-4ecb-87d3-e9d79d53b963" />
-
+</div>
 
 
 
@@ -299,7 +302,7 @@ Every activity reinforced a core principle of ethical hacking: **a significant a
 
 ## 👤 Author
 
-**Arshiya Sharma**
+**Abdulbaseer Serat**
 Cybersecurity & Ethical Hacking Internship · NetworkWalks
 Week 02 — Footprinting, OSINT & Network Scanning
 Modules: `W2-PM1` → `W2-PM5`
