@@ -93,16 +93,28 @@ info@networkwalks.com
 <img width="956" height="867" alt="01-target-domain" src="https://github.com/user-attachments/assets/b498d614-4825-4f72-aca7-d913af1a9173" />
 <div align="center">
 
-📸 *Screenshot: Email Transform Selection*
+📸 *Screenshot: 01-domain-entity*
 
 </div>
         
 <img width="961" height="879" alt="02-email-transform" src="https://github.com/user-attachments/assets/a3d4d04c-80c6-47e0-a132-2511cf7b0b6c" />
-📸 *Screenshot: WhatWeb output*
+<div align="center">
+
+📸 *Screenshot: 02-email-transform*
+
+</div>
 <img width="961" height="872" alt="03-email-search" src="https://github.com/user-attachments/assets/20139e90-5265-4b6c-991b-eec7ec6d4373" />
-📸 *Screenshot: WhatWeb output*
+<div align="center">
+
+📸 *Screenshot: 03-email-search*
+
+</div>
 <img width="962" height="917" alt="04-email-discovered" src="https://github.com/user-attachments/assets/7dc09a32-9800-4017-bec2-a7324620a4dd" />
-📸 *Screenshot: WhatWeb output*
+<div align="center">
+
+📸 *Screenshot: 04-email-discovered*
+
+</div>
 
 
 
