@@ -175,8 +175,8 @@ ls -l ~/network_topology.pdf
 - ✅ Kali Linux machine IP: `10.0.0.2`
 - ✅ Local subnet identified: `10.0.0.0/24`
 - ✅ Ping Scan performed against the full subnet (**256** addresses scanned)
-- ✅ **2 active hosts** discovered: `10.0.0.1` and `10.0.0.2`
-- ✅ MAC address of `10.0.0.1` → `52:55:0A:00:00:01`
+- ✅ **2 active hosts** discovered: `10.0.0.2` and `10.0.0.3`
+- ✅ MAC address of `10.0.0.3` → `52:54:00:12:35:00`
 - ✅ MAC address of Kali machine → `08:00:27:5A:87:BC`
 - ✅ Network topology generated and exported as `network_topology.pdf`
 
@@ -186,7 +186,7 @@ ls -l ~/network_topology.pdf
 
 This project demonstrated the process of performing **network discovery** and **live host identification** using Zenmap and Nmap.
 
-The local network configuration was first identified using Linux networking commands, then the subnet `10.0.0.0/24` was scanned using Zenmap's **Ping Scan** profile. The scan successfully identified two active hosts — `10.0.0.1` and `10.0.0.2` — along with their IP and MAC address information.
+The local network configuration was first identified using Linux networking commands, then the subnet `10.0.0.0/24` was scanned using Zenmap's **Ping Scan** profile. The scan successfully identified two active hosts — `10.0.0.2` and `10.0.0.3` — along with their IP and MAC address information.
 
 Finally, Zenmap's **Topology** feature was used to visually map the discovered network, and the result was exported and verified as a PDF file.
 
@@ -220,7 +220,7 @@ Finally, Zenmap's **Topology** feature was used to visually map the discovered n
 | 2 | Network configuration via `ip addr` showing `10.0.0.2/24` | `ip-addr-output.png` |
 | 3 | Zenmap target configured as `10.0.0.0/24`, Ping Scan profile selected | `scan-config.png` |
 | 4 | Nmap command `nmap -sn 10.0.0.0/24` visible in Zenmap | `nmap-command.png` |
-| 5 | Scan results showing 2 hosts up (`10.0.0.1`, `10.0.0.2`) + MAC info | `scan-results.png` |
+| 5 | Scan results showing 2 hosts up (`10.0.0.2`, `10.0.0.3`) + MAC info | `scan-results.png` |
 | 6 | Zenmap Topology view with legend | `topology-view.png` |
 | 7 | Exported `network_topology.pdf` opened successfully | `topology-pdf.png` |
 
