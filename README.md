@@ -300,7 +300,7 @@ Every activity reinforced a core principle of ethical hacking: **a significant a
 
 <div align="center">
 
-        
+---       
 ## 🧑‍💻 Author
 
 Abdulbaseer Serat  
