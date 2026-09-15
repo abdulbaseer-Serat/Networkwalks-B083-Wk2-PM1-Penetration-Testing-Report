@@ -297,19 +297,22 @@ Every activity reinforced a core principle of ethical hacking: **a significant a
 </div>
 
 
+---
 
-<div align="center">
-
----       
 ## 🧑‍💻 Author
 
-Abdulbaseer Serat  
-Cybersecurity & Ethical Hacking Internship · NetworkWalks
-Week 02 — Footprinting, OSINT & Network Scanning
+**Abdulbaseer Serat**
+
+Cybersecurity & Ethical Hacking Internship · NetworkWalks  
+Week 02: Footprinting, OSINT & Network Scanning  
 Modules: `W2-PM1` → `W2-PM5`
-[GitHub](https://github.com/abdulbaseer-Serat) · [LinkedIn](https://linkedin.com/in/abdul-basir-serat-65b8201ab) · info.abdulbasir@gmail.com
+
+- GitHub: https://github.com/abdulbaseer-Serat
+- LinkedIn: https://linkedin.com/in/abdul-basir-serat-65b8201ab
+- Email: info.abdulbasir@gmail.com
 
 ---
 
-Built with 💜 as part of NetworkWalks Internship — Week 2
+Built with 💜 as part of the **NetworkWalks Cybersecurity & Ethical Hacking Internship (Week 2)**.
+
 
