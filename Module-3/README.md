@@ -37,8 +37,9 @@ The objective of this project was to perform basic footprinting using **Maltego*
 ## 📋 Tasks Performed
 
 ### Task 1 — Maltego Installation and Configuration
-- Maltego Graph Desktop was opened and configured on the Kali Linux environment.
-- The Maltego interface was successfully initialized and prepared for footprinting activities.
+- install and Opened Maltego Graph Desktop within Kali Linux.
+- Configured the application for footprinting activities.
+- Verified successful initialization of the workspace.
 
 ### Task 2 — Email Address Discovery
 - A **Domain** entity was added to the Maltego graph with the target: `networkwalks.com`
