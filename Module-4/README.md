@@ -27,9 +27,9 @@ Activities were divided into two tasks:
 
 1. Gathering information using the **Baidu** data source
 2. Gathering information using **all available/configured sources**
----
 
 theHarvester identifies publicly available information such as email addresses, hosts, and subdomains related to a target domain by pulling from public sources like search engines and other OSINT data sources.
+
 ---
 
 ## 🎯 2. Objective
