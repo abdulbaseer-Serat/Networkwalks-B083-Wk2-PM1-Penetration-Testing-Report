@@ -244,7 +244,23 @@ However, some sources require **API keys** — so the amount of information succ
 | 4 | Task 2: Executing theHarvester against `microsoft.com` using all available OSINT data sources (`-b all`) with a result limit of 50. | `04-all-sources-command.png` |
 | 5 | Task 2: Reviewing reconnaissance results collected from multiple public intelligence sources, including discovered email addresses, hosts, and subdomains related to Microsoft. | `05-all-sources-results.png` |
 
+<div align="center">
+<img width="1006" height="637" alt="theHarvester" src="https://github.com/user-attachments/assets/95fcd749-1734-4923-9363-4b2fb6085a2f" />
 
+📸 *Screenshot: theHarvester help menu displaying available options and supported data sources.*
+</div>
+
+<div align="center">
+<img width="1247" height="903" alt="Task 1 execution using the Baidu search source against microsoft com" src="https://github.com/user-attachments/assets/5f927b3e-1a95-4f7f-a317-363879eff048" />
+
+📸 *Screenshot: Task 1 execution using the Baidu search source against microsoft.com.*
+</div>
+
+<div align="center">
+<img width="1039" height="586" alt="Task 2 execution using all available OSINT data sources" src="https://github.com/user-attachments/assets/1b2349b8-8781-43d2-9ced-46dd289ff420" />
+
+📸 *Screenshot: Task 2 execution using all available OSINT data sources.*
+</div>
 ---
 
 ## ✅ 10. Conclusion
