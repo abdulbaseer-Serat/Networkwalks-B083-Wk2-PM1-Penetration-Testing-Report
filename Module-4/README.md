@@ -227,13 +227,10 @@ However, some sources require **API keys** — so the amount of information succ
 
 | # | Description | Filename |
 |:---:|---|---|
-| 1 | Task 1 execution: `theHarvester -d microsoft.com -l 1000 -b baidu` | `task1-baidu-results.png` |
-| 2 | Task 1 results — discovered emails & hosts | `task1-baidu-results.png` |
-| 3 | Task 2 execution: `theHarvester -d microsoft.com -l 50 -b all` | `task2-all-sources-search.png` |
-| 4 | Task 2 results — collected Microsoft-related hosts/subdomains | `task2-all-sources-results.png` |
-<img width="952" height="1040" alt="task2-all-sources-search png" src="https://github.com/user-attachments/assets/282b6bbe-790d-4b3a-b7eb-8dff99657f32" />
-<img width="961" height="1037" alt="task1-baidu-results png" src="https://github.com/user-attachments/assets/385f64c3-1b8f-4587-ba25-7a86371a358e" />
-<img width="927" height="664" alt="harverster" src="https://github.com/user-attachments/assets/3761a892-9b9b-406b-b125-f565062341a8" />
+| 1 | theHarvester usage information and supported OSINT sources | `01-theharvester-usage.png` |
+| 2 | Task 1: Baidu-based reconnaissance against microsoft.com | `02-baidu-reconnaissance.png` |
+| 3 | Task 2: Multi-source reconnaissance against microsoft.com | `03-all-sources-reconnaissance.png` |
+| 4 | Task 2: Consolidated reconnaissance results | `04-reconnaissance-results.png` |
 
 
 
