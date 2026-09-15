@@ -5,8 +5,8 @@
 ### 🕸️ W2-PM4 — Footprinting & Reconnaissance Attacks with theHARVESTER
 
 ![Static Badge](https://img.shields.io/badge/Status-Completed-red)
-![Static Badge](https://img.shields.io/badge/Module-W2--PM4-brightorange)
-![Tool](https://img.shields.io/badge/tool-theHarvester-orange)
+![Static Badge](https://img.shields.io/badge/Module-W2--PM5-brightorange)
+![Tool](https://img.shields.io/badge/tool-Zenmap%20%2F%20Nmap-orange)
 ![Platform](https://img.shields.io/badge/platform-Kali%20Linux-blueviolet)
 ![Static Badge](https://img.shields.io/badge/Purpose-Only%20for%20Education%20-blue)
 
