@@ -38,8 +38,8 @@ The objective of this project was to perform basic footprinting using **Maltego*
 
 ## 📋 Tasks Performed
 
-### Task 1 — Maltego Installation and Configuration. for more info https://www.maltego.com/blog/beginners-guide-to-maltego-setting-up-maltego-community-edition-ce/
-- Install and configure Maltego Graph Desktop within Kali Linux.
+### Task 1 — Maltego Installation and Configuration. 
+- Install and configure Maltego Graph Desktop within Kali Linux. 
 - Configured the application for footprinting activities.
 - Verified successful initialization of the workspace.
 
@@ -103,9 +103,10 @@ info@networkwalks.com
 
 | # | Description | Filename |
 |:---:|---|---|
-| 1 | Target domain `networkwalks.com` added as an entity | `domain-added.png` |
-| 2 | Email transform `[Utilities] To Emails @domain [Search Engine]` selected | `email-transform.png` |
-| 3 | Successful discovery: `networkwalks.com → info@networkwalks.com` | `email-discovered.png` |
+| 1 | Target domain `networkwalks.com` added as an entity | `01-domain-entity.png` |
+| 2 | Email transform `[Utilities] To Emails @domain [Search Engine]` selected | `02-email-transform.png` |
+| 3 | Executed Email Search Transform | `03-email-search.png` |
+| 3 | Email Address Successfully Discovered: `networkwalks.com → info@networkwalks.com` | `email-discovered.png` |
 
 
 ## 🧠 Conclusion
