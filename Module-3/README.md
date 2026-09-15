@@ -8,9 +8,8 @@
 ![Static Badge](https://img.shields.io/badge/Module-W2--PM2-brightorange)
 ![Tool](https://img.shields.io/badge/tool-Maltego-purple)
 ![Platform](https://img.shields.io/badge/platform-Kali%20Linux-blueviolet)
-![Purpose](https://img.shields.io/badge/purpose-Educational%20Only-blue)
+![Static Badge](https://img.shields.io/badge/Purpose-Only%20for%20Education%20-blue)
 
-**Prepared by: Arshiya Sharma**
 
 </div>
 
