@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🕸️ W2-PM3 — Footprinting with Maltego
+# Penetration Testing Report Module-3
 
-### Week 2 | Project Module 3 — Cybersecurity & Ethical Hacking
+### 🕸️ W2-PM3 — Footprinting with Maltego
 
 ![Static Badge](https://img.shields.io/badge/Status-Completed-red)
 ![Static Badge](https://img.shields.io/badge/Module-W2--PM2-brightorange)
