@@ -36,10 +36,10 @@
 
 All reconnaissance, information gathering, and network scanning activities were performed only against:
 
-- ✅ Publicly available information where appropriate
-- ✅ Targets included within the authorized educational scope
-- ✅ Systems specifically permitted for testing
-- ✅ My own local network and virtualized lab environment
+- ✅ Publicly available information where appropriate.
+- ✅ Targets included within the authorized educational scope.
+- ✅ Systems specifically permitted for testing.
+- ✅ My own local network and virtualized lab environment.
 
 🚫 **No** unauthorized access, exploitation, privilege escalation, denial-of-service activity, credential attacks, malware deployment, persistence techniques, or destructive actions were performed.
 
