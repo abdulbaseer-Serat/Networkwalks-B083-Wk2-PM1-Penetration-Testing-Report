@@ -190,7 +190,7 @@ Queried multiple sources against the authorized domain to collect public emails,
 
 ## 🧩 Learning Outcome
 
-Penetration testing does not begin with exploitation — it begins with understanding the target environment.
+Penetration testing does not begin with exploitation — it begins with understanding the target environment
 
 ```
 Traditional Footprinting
