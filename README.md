@@ -61,7 +61,7 @@ All findings in this report are **security observations**, not confirmed vulnera
 
 ## 🎯 Objectives
 
-- Understand the reconnaissance phase of penetration testing
+- Understand the reconnaissance phase of penetration testing.
 - Perform footprinting using multiple Kali Linux tools
 - Collect publicly available information about an authorized target
 - Explore search engine reconnaissance and the GHDB
